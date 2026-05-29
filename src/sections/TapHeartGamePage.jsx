@@ -2,8 +2,8 @@ import { useMemo, useState } from 'react'
 import BottomNav from '../layout/BottomNav'
 import Icon from '../components/Icon'
 
-const heartImage =
-  'https://lh3.googleusercontent.com/aida/ADBb0ugY53hVy2sZ-BInU3MLH_wn_WHTe5FfnNVrTftpg19kHn1hL941y87Bya5482Jyho4W_m6a4ppMoATJbJVcWbTGroJsfwGohf4OjuRKinIlafOqdT98R1SfF299_EIVmHHux7_zhg0LCXRGxQQvaJRinsbdaDQ_3JynxkVqAsri7jZTEx8aZYkDgBDpg6uHgfsx1OOc_zFbUN15kYgh8SS4Ym8ULq5p4Rh2BbNUUUgMdkrtLaLAiGSO6DnP'
+// const heartImage =
+//   'https://lh3.googleusercontent.com/aida/ADBb0ugY53hVy2sZ-BInU3MLH_wn_WHTe5FfnNVrTftpg19kHn1hL941y87Bya5482Jyho4W_m6a4ppMoATJbJVcWbTGroJsfwGohf4OjuRKinIlafOqdT98R1SfF299_EIVmHHux7_zhg0LCXRGxQQvaJRinsbdaDQ_3JynxkVqAsri7jZTEx8aZYkDgBDpg6uHgfsx1OOc_zFbUN15kYgh8SS4Ym8ULq5p4Rh2BbNUUUgMdkrtLaLAiGSO6DnP'
 
 const milestones = {
   10: 'Ấm hơn một chút rồi đó ✨',
@@ -162,7 +162,7 @@ function TapHeartGamePage({ onGoHome, onOpenStories, onOpenLetters }) {
                 className={`h-full w-full ${heartTapAnim ? 'heart-tap-anim' : 'heart-pulse'}`}
                 onAnimationEnd={() => setHeartTapAnim(false)}
               >
-                <img src={heartImage} alt="trái tim" className="h-full w-full object-contain drop-shadow-2xl" />
+                <img src="/images/heart.png" alt="trái tim" className="h-full w-full object-contain drop-shadow-2xl" />
               </div>
             </div>
 
