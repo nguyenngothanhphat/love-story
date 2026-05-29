@@ -5,7 +5,7 @@ function TraitsSection({ traits }) {
     <section className="bg-surface-container px-container-padding py-stack-lg">
       <div className="mx-auto max-w-md">
         <h2 className="mb-stack-lg text-center font-headline-lg text-headline-lg text-primary">
-          Điều anh yêu ở em
+          Điều anh thích ở em
         </h2>
         <div className="grid grid-cols-2 gap-4">
           {traits.map((trait) => (
