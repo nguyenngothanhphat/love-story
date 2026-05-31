@@ -8,7 +8,7 @@ function FinalSection() {
     <section className="flex min-h-[50vh] items-center justify-center bg-surface-container-highest px-container-padding py-stack-lg">
       <div className="w-full max-w-md text-center">
         <div className="mb-stack-lg rounded-lg border-2 border-white bg-white p-6 shadow-xl">
-          <img src="/public/images/loppy-1.png" alt="em Én Happy" className="mb-stack-md h-64 w-full object-contain" />
+          <img src="/images/loppy-1.png" alt="em Én Happy" className="mb-stack-md h-64 w-full object-contain" />
           <h2 className="mb-2 font-headline-xl text-headline-xl text-primary">Cảm ơn em đã bên anh</h2>
           <p className="mb-stack-lg text-on-surface-variant">Mọi câu chuyện đều đẹp hơn vì có em.</p>
           <button

@@ -66,7 +66,7 @@ function SurpriseSection({ hearts, poppedHearts, onPop }) {
                 createConfetti(event)
               }}
             >
-              <img src="/public/images/loppy-3.png" alt="Trái tim ngọt ngào" className={`pointer-events-none object-contain ${heart.sizeClass}`} />
+              <img src="/images/loppy-3.png" alt="Trái tim ngọt ngào" className={`pointer-events-none object-contain ${heart.sizeClass}`} />
             </button>
           )
         })}

@@ -23,14 +23,14 @@ export const memories = [
   {
     caption: 'Nhớ em nhiều lắm...',
     image:
-      '/public/images/loppy-5.png',
+      '/images/loppy-5.png',
     tapeClass: 'bg-primary-container/40 -rotate-2',
     rotateClass: '-rotate-2',
   },
   {
     caption: 'Cùng ngắm sao',
     image:
-      '/public/images/loppy-2.png',
+      '/images/loppy-2.png',
     tapeClass: 'bg-secondary-container/30 rotate-6',
     rotateClass: 'rotate-3 mt-4',
   },
