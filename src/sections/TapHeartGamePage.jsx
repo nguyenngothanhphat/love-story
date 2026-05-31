@@ -162,7 +162,14 @@ function TapHeartGamePage({ onGoHome, onOpenStories, onOpenLetters }) {
                 className={`h-full w-full ${heartTapAnim ? 'heart-tap-anim' : 'heart-pulse'}`}
                 onAnimationEnd={() => setHeartTapAnim(false)}
               >
-                <img src="/images/heart.png" alt="trái tim" className="h-full w-full object-contain drop-shadow-2xl" />
+                <img
+                  src="/images/heart.png"
+                  alt="trái tim"
+                  loading="eager"
+                  fetchPriority="high"
+                  decoding="async"
+                  className="h-full w-full object-contain drop-shadow-2xl"
+                />
               </div>
             </div>
 

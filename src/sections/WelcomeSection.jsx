@@ -18,6 +18,9 @@ function WelcomeSection() {
           <img
             src="/images/loppy-4.png"
             alt="em Én"
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
             className="heart-float h-48 w-48 rounded-full border border-white/50 bg-white/30 p-4 object-contain drop-shadow-xl backdrop-blur-sm"
           />
         </div>
