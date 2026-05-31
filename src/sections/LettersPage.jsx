@@ -29,11 +29,25 @@ const letters = {
       'Hôm nay em không cần phải thật năng suất. Em chỉ cần là chính em thôi. Quấn chăn ấm, nghe tiếng mưa, và nhớ rằng mặt trăng cũng có lúc khuyết. Em vẫn thật đẹp trong những khoảnh khắc lặng yên.',
     ],
   },
+  'favorite': {
+    title: 'Một ngày thật đẹp cùng em',
+    date: '31 tháng 5, 2026',
+    tag: 'Kỷ niệm dịu dàng',
+    icon: 'favorite',
+    preview:
+      'Hôm nay là một ngày rất đặc biệt, không phải vì mọi thứ hoàn hảo, mà vì anh được cùng em làm những điều thật ý nghĩa...',
+    content: [
+      'Hôm nay là một ngày rất đặc biệt, không phải vì mọi thứ hoàn hảo, mà vì anh được cùng em làm những điều thật ý nghĩa. Cùng em đi làm gốm, cùng nhau cười vì những khoảnh khắc nhỏ, cùng khui blindbox rồi đặt nó lên xe của anh như một dấu nhớ dễ thương của riêng hai đứa.',
+      'Có những lúc chỉ cần được ở gần em, nhìn em vui, nghe em nói, cùng em làm vài điều đơn giản thôi cũng đủ khiến anh thấy lòng mình nhẹ nhàng hơn rất nhiều. Ngoài trời hôm nay có mưa, có lạnh, nhưng lạ thật, ở bên em anh lại thấy mọi thứ trở nên ấm áp hơn. Anh không biết phải gọi cảm giác đó là gì cho thật đúng, chỉ biết rằng những ngày có em luôn khiến anh muốn giữ lại lâu hơn một chút.',
+      'Cảm ơn em vì đã cùng anh tạo nên một ngày thật đẹp, một ngày mà anh sẽ muốn nhớ lại nhiều lần sau này. Và nếu có thể, anh mong sau này tụi mình sẽ còn có thêm nhiều ngày giản dị nhưng đáng nhớ như hôm nay.',
+    ],
+  }
 }
 
 const cards = [
   { id: 'note', delay: '0.1s' },
   { id: 'bad-days', delay: '0.2s' },
+  { id: 'favorite', delay: '0.3s' }
 ]
 
 function LettersPage({ onGoHome, onOpenStories, onOpenGame }) {

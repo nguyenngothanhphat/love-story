@@ -23,14 +23,14 @@ export const memories = [
   {
     caption: 'Nhớ em nhiều lắm...',
     image:
-      'https://lh3.googleusercontent.com/aida/ADBb0ujGq6lSE6k6X_XdpF5bd1PyAnuc_Ri8oL7V4cNjp1JR_uECmJS74piLkCrSjMu03sxW6hxkXZleW48OPWq0e9X5hsytSxz7iaumO_LcVLRnVzcr9mszusQjDmOPF9nUl3ToaNS7qOGhjeFWC3SCQu6PUwpO04nG0VVyHtBME7kgcMRRd4VcbNJtXDNg110JsrAEPqJASdqdiFChJPRTVQ6B0fQQs1vPTB73Ty8NtRZcHkiUOpAE8Ex0TZp9',
+      '/public/images/loppy-5.png',
     tapeClass: 'bg-primary-container/40 -rotate-2',
     rotateClass: '-rotate-2',
   },
   {
     caption: 'Cùng ngắm sao',
     image:
-      'https://lh3.googleusercontent.com/aida/ADBb0uhc_dInY1VjDY3jWIKirZ0fy2tVYiRsqFeg7vEASoubkCRJporgAROqhCjFkprSkeGF59D3MYtGTVZx_C6vDKEsPXmznQkC1EFZzAFX8-1p72DY_b26ulsjpCD6wJ6kB36g_IFkZ0pWPN94HqYoH0ZL8wgVlmSluOU1e7AtTHMpu9X9hg_8facn6i_zODc-PTl0DW-eIzLyXpZrKUPzxt9iHn0LdzUdlZebzfR1egZXJ-D9MOw5CV8Yqx4i',
+      '/public/images/loppy-2.png',
     tapeClass: 'bg-secondary-container/30 rotate-6',
     rotateClass: 'rotate-3 mt-4',
   },

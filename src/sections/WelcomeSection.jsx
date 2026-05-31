@@ -16,7 +16,7 @@ function WelcomeSection() {
       <div className="relative z-10 w-full max-w-lg text-center">
         <div className="mb-stack-lg flex justify-center">
           <img
-            src={loppyImage}
+            src="/public/images/loppy-4.png"
             alt="em Én"
             className="heart-float h-48 w-48 rounded-full border border-white/50 bg-white/30 p-4 object-contain drop-shadow-xl backdrop-blur-sm"
           />

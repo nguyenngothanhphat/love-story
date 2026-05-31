@@ -131,7 +131,7 @@ function HugGamePage({ onGoHome, onOpenStories, onOpenLetters, onOpenGame }) {
         <div className="space-y-stack-lg">
           <div id="game-view" className="flex flex-col items-center space-y-stack-md text-center">
             <div className="relative mx-auto aspect-square w-full max-w-[320px] overflow-hidden rounded-xl border border-primary-fixed-dim bg-surface-container-low shadow-[0_20px_40px_rgba(74,59,62,0.1)]">
-              <img src={imageUrl} alt="em Én ôm trái tim" className="h-full w-full object-cover" />
+              <img src="/public/images/loppy-3.png" alt="em Én ôm trái tim" className="h-full w-full object-cover" />
             </div>
 
             <div className="space-y-base">
